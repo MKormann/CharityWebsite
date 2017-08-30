@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+.warningLabel {
+	position: absolute;
+	width: 100%;
+}
+
+.errorMessage {
+	position: absolute;
+	color: red;
+	font-size: 0.875em;
+	top: -25%;
+	width: 200px;
+	text-align: left;
+	padding-left: 5px;
+}

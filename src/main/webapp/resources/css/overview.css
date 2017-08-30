@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	text-align: center;
+}
+
+.donationList {
+	overflow-y: scroll;
+	height: 175px;	
+	background-color: Gainsboro;
+}
+
+section {
+	width: 85%;
+	height: 225px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#leftSection {
+	margin-left: 10%;
+	width: 30%;
+	height: 225px;
+	float: left;
+}
+
+#rightSection {
+	width:30%;
+	margin-left: 60%;
+	height: 225px;
+	
+}
+
+table {
+	width: 100%;
+}
+
+.donor {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.amount {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.buttons {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	padding-top: 20px;
+}
